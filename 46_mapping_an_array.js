@@ -1,4 +1,4 @@
-// Mapping an array:
+// Mapping an array: map method gives an array.
 
 // Mapping means each element of an array can be mapped to something else.
 // 

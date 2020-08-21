@@ -17,7 +17,7 @@ function fizzbuzz(input) {
         return 'Buzz'
     else
         return input;
-}
+};
 
 let resultOne = fizzbuzz(3);
 console.log(resultOne);

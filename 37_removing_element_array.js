@@ -4,7 +4,7 @@
 
 const numbers = [1, 2, 3, 4, 5, 6, 7];
 
-// Removing an element from the End: pop() method
+// Removing an element from the End: pop() method removes only one element from the last.
 const last = numbers.pop();
 console.log(numbers);
 console.log(last);

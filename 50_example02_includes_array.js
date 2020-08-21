@@ -1,4 +1,5 @@
-// Finding a number in an array.
+// Finding a number in an array.  
+// Search pattern
 
 const numbers = [1, 2, 3, 4, 5];
 
@@ -12,6 +13,6 @@ function includes(array, searchElement) {
         };
 };
 
-const result = includes(numbers, -1);
+const result = includes(numbers, 1);
 
 console.log(result);

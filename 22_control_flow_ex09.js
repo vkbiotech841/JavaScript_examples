@@ -1,4 +1,4 @@
-// Calcularing grade of the student based on marks objected.
+// Calculating grade of the student based on marks objected.
 // Grading logic:
 // if average of marks in a array is in between:
 // 0-59:F

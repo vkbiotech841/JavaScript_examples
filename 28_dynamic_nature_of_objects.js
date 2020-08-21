@@ -9,7 +9,7 @@ const circle = {
 // Adding new property (key:value). Property should be separated by comma.
 // To refer the property of an object, we will use dot notation.
 
-// Here color and draw (function) are two new properties added to the circle object.
+// Here color and draw (function) are two new properties being added to the circle object.
 circle.color = 'yellow';
 circle.draw = function () { };
 

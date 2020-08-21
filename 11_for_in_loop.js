@@ -10,9 +10,9 @@ for (let key in person) {
 
 // To excess property of an object we can use:
 
-// Dot notation: We already know, what property to excess.
+// 1. Dot notation: We already know, what property to excess.
 person.name
-// Bracket notation: We use when we do not know, what property we are going to excess
+// 2. Bracket notation: We use when we do not know, what property we are going to excess
 person['name']
 
 

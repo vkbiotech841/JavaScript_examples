@@ -16,7 +16,7 @@ function showProperties(object) {
         if (typeof object[key] === 'string')   // To check the value of a key:value pair; typeof operator was used.
             console.log(key, object[key]);    // if value is a string, it will log key, value on the console.
     }
-}
+};
 
 
 showProperties(movie);

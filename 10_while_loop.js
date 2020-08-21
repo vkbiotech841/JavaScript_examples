@@ -1,11 +1,13 @@
+// WHILE LOOP or while loop function:
+
 // Symbols:
-// for (){};
 // if ()
+// for (){};
 // while (){};
 
 // Display odd number between 1 to 5: Use for and if loop
 
-for (let i = 0; i <= 5; i++) {
+for (let i = 0;i <= 5;i++) {
     if (i % 2 !== 0)
         console.log(i);
 };

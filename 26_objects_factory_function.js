@@ -3,13 +3,13 @@
 
 
 function createCircle(radius) {
-    return {                      // In factor function return word is used not it is not used in constructor function.
+    return {                      // In factory function return word is used but it is not used in constructor function.
         radius: radius,
         draw() {
             console.log('draw');
         }
     };
-}
+};
 
 // Calling function and storing in a variable.
 // Here, factory function has created a circle1 object. 

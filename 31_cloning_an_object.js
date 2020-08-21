@@ -4,15 +4,14 @@ const circle = {
     draw() {
         console.log('draw');
     }
-
 };
 
 // Method 01: Using for and in loop
-const another = {};   //consider another is an empty object.
+const another = {};                  //consider another is an empty object.
 
-for (let key in circle)  // Now using for in loop enumerating key in circle object.
-    another[key] = circle[key];  // Here, value of the circle key is being stored in the another object.
-console.log(another); // logging another object in the console.
+for (let key in circle)              // Now using for in loop enumerating key in circle object.
+    another[key] = circle[key];      // Here, value of the circle key is being stored in the another object.
+console.log(another);                // logging another object in the console.
 
 
 

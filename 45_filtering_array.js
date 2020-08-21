@@ -1,4 +1,4 @@
-// Filtering an array.
+// Filtering an array:  filter method gives an array.
 
 
 const numbers = [1, -1, 2, 3];

@@ -8,7 +8,7 @@ function isLandscape(width, height) {
         return false;
 }
 
-let result = isLandscape(500, 800);
+let result = isLandscape(1500, 800);
 console.log(result);
 
 // Method 02:

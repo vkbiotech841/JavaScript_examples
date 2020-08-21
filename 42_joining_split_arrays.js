@@ -1,6 +1,6 @@
 // Joining arrays:
 // it is different from combining arrays.
-// In combining array we combine two different arrays, wereas in joining array we joing the elements of a single (may be using comma).
+// In combining array we combine two different arrays, whereas in joining array we joing the elements of a single (may be using comma).
 
 const numbers = [1, 2, 3];
 

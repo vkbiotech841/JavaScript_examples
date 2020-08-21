@@ -20,26 +20,26 @@ console.log(a);
 
 const message = 'This is my first message'
 
-console.log(message.length);          // calculates length of a string
+console.log(message.length);              // calculates length of a string (with space)
 
 console.log(message[0]);
-console.log(message[1]);          // Give the index element of the an string object.
+console.log(message[1]);                 // Give the index element of the an string object.
 
-console.log(message.includes('my'));  // search for a word in a string object and return a boolean.
+console.log(message.includes('my'));      // search for a word in a string object and return a boolean.
 console.log(message.includes('not'));
 
-console.log(message.startsWith('This')); // searches if string object starts with 'This'.
+console.log(message.startsWith('This'));  // searches if string object starts with 'This'.
 console.log(message.startsWith('this'));  // This is a case-sensitive process. 
 
-console.log(message.endsWith('e'));   // seaches if string object ends with 'e'
+console.log(message.endsWith('e'));       // seaches if string object ends with 'e'
 
-console.log(message.indexOf('my'));  // Gives the index of word 'my' in the string object.
+console.log(message.indexOf('my'));       // Gives the index of word 'my' in the string object.
 
 console.log(message.replace('first', 'second'));   // A word can be replaced. here, first become second.
 
-console.log(message.toUpperCase());  // Uppercase a string elements.
+console.log(message.toUpperCase());               // Uppercase a string elements.
 
-console.log(message.toLowerCase());  // Lower case a string elements. 
+console.log(message.toLowerCase());               // Lower case a string elements. 
 
 
 const vikram = ' I love flute  '    // added extra white space for demo.
@@ -63,7 +63,7 @@ const kriti = 'This is me \n \'kriti\'';  // Using scape notation and Without te
 console.log(kriti);
 
 const ricky = `This is me
-'kriti'`;
+'Ricky'`;
 console.log(ricky);            // Using template literal, quite simple way. 
 
 // Template literals are good way to send an email.

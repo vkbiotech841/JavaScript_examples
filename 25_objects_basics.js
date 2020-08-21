@@ -6,12 +6,12 @@
 
 
 const circle = {    // here, circle is an object with {} object literal symbol. it is holding:
-    radius = 1,     // variable: radius
+    radius: 1,     // variable: radius
     location: {     // Another object: location that contains x and y variable
         x: 1,
         y: 1,
     },
-    isVisible=true,  // boolean:true
+    isVisible: true,  // boolean:true
     draw: function () {          // function: draw
         console.log('draw');
     }
@@ -19,7 +19,7 @@ const circle = {    // here, circle is an object with {} object literal symbol. 
 
 
 // Dot notation method for calling a function when it inside an object.
-// When a function is inside a function it is called as Method instide of function. Ana function word need to be removed.
+// When a function is inside a function it is called as Method inside of function. And function word need to be removed.
 // Here, draw function was part of circle object. Hence, draw function can be used using dot notation. 
 
 
@@ -27,4 +27,4 @@ const circle = {    // here, circle is an object with {} object literal symbol. 
 circle.draw();  // draw is a method here
 
 // Function call:
-draw();
+// draw();

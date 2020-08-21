@@ -1,6 +1,7 @@
 // Rest operator: if we want a function with multiple parameters we can use rest operator.
 // rest operator symbol: (...args)
 // This enable us to use multiple arguments in while call a function.
+// Note: In case of rest operator, we write (...args) in the parameters whereas for spread operator, we write in the argument.
 
 // Example 01: calculating the sum of the numbers with multiple parameters and arguments.
 

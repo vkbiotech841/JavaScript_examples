@@ -1,5 +1,7 @@
 // Adding element to an array: Primitive type.
 
+
+
 const numbers = [3, 4];
 
 // Arrays are like an object. so we can use dot method to use various method associated with an array.
