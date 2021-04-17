@@ -26,8 +26,7 @@ for (let i = 0;i < 5;i++) {
 
 for (let i = 0;i <= 5;i++) {
     if (i % 2 !== 0)
-        console.log(i);
-    console.log('Hello Vikram');
+        console.log("odd number way 01:", i);
 };
 
 // Here, if block is a statement. 
@@ -36,6 +35,5 @@ for (let i = 0;i <= 5;i++) {
 
 for (let i = 5;i >= 1;i--) {
     if (i % 2 !== 0)
-        console.log(i);
-    console.log('Hello Vikram');
+        console.log("odd number way 02:", i);
 };

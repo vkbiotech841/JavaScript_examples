@@ -10,8 +10,8 @@ let y = x;   // Value of x was copied to y
 x = 20;      // Again value of x was changed to 20
 
 // But when we logged the value of x and y. we found x=20 whereas y=10.
-console.log(x);
-console.log(y);
+console.log("x:", x);
+console.log("y:", y);
 
 
 // Reference type example:
@@ -23,8 +23,8 @@ a.value = 20;          // Value property of a was changed to 20.
 
 
 // But when we logged the value of a and b objects, we found a=20 wherease b=20
-console.log(a);
-console.log(b);
+console.log("a", a);
+console.log("b", b);
 
 
 // Conclusion: Primitives are copied by their value and refernce type are copied by their reference.

@@ -13,10 +13,10 @@ const circle = {
 circle.color = 'yellow';
 circle.draw = function () { };
 
-console.log(circle);
+console.log("updated object", circle);
 
 // Deleting exiting property (color) of a object.
 delete circle.color;
 
 //logging circle object. This circle object has now only two properties radius and draw function.
-console.log(circle);
+console.log("updated object after removing color", circle);

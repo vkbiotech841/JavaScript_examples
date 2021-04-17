@@ -3,9 +3,11 @@
 
 // Method 01:
 function isLandscape(width, height) {
-    if (width > height) return true;
-    else
+    if (width > height) {
+        return true;
+    } else {
         return false;
+    }
 }
 
 let result = isLandscape(1500, 800);

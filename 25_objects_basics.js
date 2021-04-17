@@ -11,7 +11,7 @@ const circle = {    // here, circle is an object with {} object literal symbol. 
         x: 1,
         y: 1,
     },
-    isVisible: true,  // boolean:true
+    isVisible: true,             // boolean:true
     draw: function () {          // function: draw
         console.log('draw');
     }

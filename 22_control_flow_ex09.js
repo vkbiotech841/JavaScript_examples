@@ -25,7 +25,7 @@ function calculateGrade(marks) {
 }
 
 // Calling calculateGrade function and logging on the console.
-console.log(calculateGrade(marks));
+console.log("Grade:", calculateGrade(marks));
 
 
 
@@ -37,10 +37,11 @@ console.log(calculateGrade(marks));
 // first re-usable function for calculating average of an array
 function calculateAverage(array) {
     let sum = 0;
-    for (let value of array)
+    for (let value of array) {
         sum += value;
-    let average = sum / array.length;
-    return average;
+        let average = sum / array.length;
+        return average;
+    }
 }
 
 // Second function for calculating the grade of an array (marks)
@@ -54,7 +55,7 @@ function calculatingGrade(marks) {
     else return 'A';
 }
 
-console.log(calculateGrade(marks));
+console.log("Grade:", calculateGrade(marks));
 
 
 

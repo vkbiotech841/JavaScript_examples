@@ -3,7 +3,7 @@
 
 
 function createCircle(radius) {
-    return {                      // In factory function return word is used but it is not used in constructor function.
+    return {                      // In factory function "return" word is used but it is not used in constructor function.
         radius: radius,
         draw() {
             console.log('draw');

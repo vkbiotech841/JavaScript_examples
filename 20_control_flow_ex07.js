@@ -13,8 +13,9 @@ const movie = {        // {} is an object literal syntax.
 
 function showProperties(object) {
     for (let key in object) {                  // using for loop only property is listed.
-        if (typeof object[key] === 'string')   // To check the value of a key:value pair; typeof operator was used.
-            console.log(key, object[key]);    // if value is a string, it will log key, value on the console.
+        if (typeof object[key] === 'string') {  // To check the value of a key:value pair; typeof operator was used.
+            console.log("key", key, "value", object[key]);    // if value is a string, it will log key, value on the console.
+        }
     }
 };
 

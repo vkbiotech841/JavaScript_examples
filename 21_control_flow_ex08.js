@@ -5,10 +5,11 @@
 function sum(limit) {
     let sum = 0;          // Considering initially sum = 0.
     for (i = 0;i <= limit;i++) {
-        if (i % 3 === 0 || i % 5 === 0)
+        if (i % 3 === 0 || i % 5 === 0) {
             sum += i;    // adding i to the sum.
+        }
     }
-    return sum           // return should be in for block because we should get the once for loop ends.
+    return sum;           // return should be in for block because we should get the once for loop ends.
 };
 
 // Calling the function and logging on the console

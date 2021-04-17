@@ -2,9 +2,11 @@
 
 // Method 01:
 function max(a, b) {
-    if (a > b) return a;
-    else
+    if (a > b) {
+        return a;
+    } else {
         return b;
+    }
 }
 
 // Calling function and storing result in a variable

@@ -1,7 +1,7 @@
 // WHILE LOOP or while loop function:
 
 // Symbols:
-// if ()
+// if (){}
 // for (){};
 // while (){};
 
@@ -9,7 +9,7 @@
 
 for (let i = 0;i <= 5;i++) {
     if (i % 2 !== 0)
-        console.log(i);
+        console.log("odd number using for loop:", i);
 };
 
 //  In case of for loop: let i=0 is inside for loop but in
@@ -17,7 +17,8 @@ for (let i = 0;i <= 5;i++) {
 
 let i = 0;              // variable is outside the while block
 while (i <= 5) {        // Condition
-    if (i % 2 !== 0)    // statement
-        console.log(i);
+    if (i % 2 !== 0) {  // statement
+        console.log("odd number using while loop:", i);
+    }
     i++;                 // increamentExpression
 };

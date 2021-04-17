@@ -7,17 +7,19 @@ function checkSpeed(speed) {
     const speedLimit = 70;
     const kmPerPoint = 5;
 
-    if (speed < speedLimit)
+    if (speed < speedLimit) {
         console.log('Ok');
+    }
     else {
         let points = Math.floor((speed - speedLimit) / kmPerPoint);
         //Math.floor () function converts floating number to absolute number.
-        if (points >= 12)
+        if (points >= 12) {
             console.log('Licence suspended');
-        else
+        }
+        else {
             console.log('Points', points);   // Here, Points: is for displaying Points word and points is a variable.
+        }
     }
-
 }
 
 

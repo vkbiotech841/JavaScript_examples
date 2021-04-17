@@ -23,5 +23,6 @@ function Circle(radius) {            // Pascal notation for writing name of cons
 };
 
 const circle = new Circle(1);       // setting new object with its property (this.). Ex: radius and draw.
+console.log("result", circle);
 
 // Here, using contructor function we have created an object: new circle and stored in circle variable.
