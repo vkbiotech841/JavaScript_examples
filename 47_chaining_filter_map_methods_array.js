@@ -9,4 +9,12 @@ const items = numbers
     .filter(obj => obj.value > 1)
     .map(obj => obj.value);
 
-console.log(items);
+console.log("final item", items);
+
+
+// Solution at each step:
+
+ // [1,2,3]
+ // [{value:1}, {value:2}, {value:3}]
+ // [{value:2}, {value:3}]
+//  [2,3]

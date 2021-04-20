@@ -1,5 +1,5 @@
 // Arrow function: In other, languages (e.g C) it is also called as lamda function.
-// Whenever, we are using a predicate or call back function.
+// Whenever, we are using a predicate or callback function.
 // When can use arrow function. Simply removing the function word and adding => symbol.
 
 
@@ -13,7 +13,7 @@ const course = courses.find(function (course) {
     return course.name === 'a'
 });
 
-console.log(course);
+console.log("arrow function with single parameter", course);
 
 // With arrow functions:
 
@@ -22,7 +22,7 @@ const course1 = courses.find((course) => {
     return course.name === 'a'
 });
 
-console.log(course1);
+console.log("arrow function with multiple parameter", course1);
 
 // if single parameter is present. 
 
@@ -32,10 +32,10 @@ console.log(course1);
 
 const course2 = courses.find(course => course.id === 1);
 
-console.log(course2);
+console.log("one line arrow function", course2);
 
 // if no parameter is present.
 
 // we simply give a () and remove return keyword as well as {}.
 const course3 = courses.find(() => course.id === 2);
-console.log(course3);
+console.log("arrow function if parameters given", course3);

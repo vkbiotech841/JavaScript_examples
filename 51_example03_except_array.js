@@ -3,15 +3,19 @@
 
 const numbers = [1, 2, 3, 4];
 
-
+// Method 01:
 function except(array, excluded) {
     const output = [];
-    for (let element of array)
-        if (!excluded.includes(element))
+    for (let element of array) {
+        if (!excluded.includes(element)) {
             output.push(element);
+        }
+    }
     return output;
 };
 
 // We can check for multiple elements.
 const output = except(numbers, [1, 2]);
-console.log(output);
+console.log("get element except:", output);
+
+

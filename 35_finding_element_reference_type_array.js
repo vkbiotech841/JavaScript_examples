@@ -12,7 +12,7 @@ const courses = [           // array containing objects.
 
 // include method does not work with reference type. because objects are reference type.
 // That means, even though  this object is present in this array but include method gives a false.
-console.log(courses.includes({ id: 1, name: 'a' }));
+console.log("includes Method", courses.includes({ id: 1, name: 'a' }));
 
 // Way 01: fetching by name.
 
@@ -23,14 +23,14 @@ const course = courses.find(function (course) {     // Note: call back function 
     return course.name === 'a'
 });
 
-console.log(course);
+console.log("find method by name", course);
 
 // Way 02: fetching by id.
 const course2 = courses.find(function (course) {
     return course.id === 2
 });
 
-console.log(course2);
+console.log("find method by id", course2);
 
 // Way 03: if search element is absent. it returns undefined.
 
@@ -38,7 +38,7 @@ const course3 = courses.find(function (course) {
     return course.id === 3
 });
 
-console.log(course3);
+console.log("find method by id", course3);
 
 
 // Method 02: findIndex method :searching and getting index of the element.
@@ -48,7 +48,7 @@ const course4 = courses.findIndex(function (course) {
     return course.id === 1
 });
 
-console.log(course4);
+console.log("findIndex method by id", course4);
 
 // Example 02: if element is absent. it returns index as -1.
 
@@ -56,6 +56,6 @@ const course5 = courses.findIndex(function (course) {
     return course.id === 12
 });
 
-console.log(course5);
+console.log("findIndex method by id", course5);
 
 

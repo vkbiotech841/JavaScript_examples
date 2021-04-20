@@ -9,7 +9,7 @@ let sum = 0;
 for (let number of numbers) {
     sum = sum + number;
 };
-console.log(sum);
+console.log("calculate sum", sum);
 
 
 // Example 01: reduce() method.
@@ -24,4 +24,4 @@ const sum1 = number1.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;
 }, 0);
 
-console.log(sum1);
+console.log("reduce method", sum1);

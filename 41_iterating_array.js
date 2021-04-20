@@ -10,12 +10,12 @@ for (let number of numbers) {
 
 // Method 02: using forEach () method
 
-// Example 02:forEach method takes a call function as an argument.
+// Example 02:forEach method takes a callback function as an argument.
 numbers.forEach((number) => {
-    console.log(number);
+    console.log("only element", number);
 });
 
-// Example 03: forEach method takes a call function and two parameters.
+// Example 03: forEach method takes a callback function and two parameters.
 numbers.forEach((number, index) => {
-    console.log(index, number);
+    console.log("element with index and element", index, number);
 });

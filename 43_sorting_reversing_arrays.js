@@ -3,16 +3,16 @@
 // Primitive type:
 
 // Sorting an array: using sort() method
-const numbers = [2, 3, 1]; // unshorted array.
+const numbers = [2, 3, 1]; // unsorted array.
 
 // Example 01: using sort () method
 numbers.sort();
-console.log(numbers);
+console.log("sort an array", numbers);
 
 // Example 02:
 // reversing an array: using reverse() method
 numbers.reverse();
-console.log(numbers);
+console.log("reverse an array", numbers);
 
 
 
@@ -27,7 +27,7 @@ const courses = [
 
 // simple sort method (that does not take any parameter) only works on primitive types not on reference type.
 courses.sort();
-console.log(courses);
+console.log("sorting with reference type", courses);
 
 
 // Example 03: Node.js and JavaScript first letter is capital.
@@ -41,7 +41,7 @@ courses.sort((a, b) => {       // here, a and b are imaginery parameters to be c
     if (a.name > b.name) return 1;
     return 0;
 });
-console.log(courses);
+console.log("sorting with reference type", courses);
 // Result: Javascript comes first.
 
 
@@ -60,7 +60,7 @@ courses1.sort((a, b) => {
     if (a.name > b.name) return 1;
     return 0;
 });
-console.log(courses1);
+console.log("sorting with reference type", courses1);
 // Result: Node.js comes first.
 
 // Why this is happening ???
@@ -81,5 +81,5 @@ courses.sort((a, b) => {
     if (nameA > nameB) return 1;
     return 0;
 });
-console.log(courses);
+console.log("sorting with reference type", courses);
 // Result: Now Javascript comes before Node.js

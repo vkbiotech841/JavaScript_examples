@@ -7,19 +7,19 @@ const numbers = [1, 2, 3];
 // Here, we want to join element of numbers array by a comma.
 
 const joined = numbers.join(',');
-console.log(joined);
+console.log("joined", joined);
 
 // Spliting array:
 
 const message = 'This is my first message';
 // Here, we want to split message at empty space.
 const parts = message.split(' ');
-console.log(parts);
+console.log("split", parts);
 
 // we can also join these parts at (-)
 
 const combined = parts.join('-');
-console.log(combined);
+console.log("join", combined);
 
 // These methods will be very usefully while making url slug.
 // urls should not have a white space.

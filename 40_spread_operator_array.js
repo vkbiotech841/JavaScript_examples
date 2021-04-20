@@ -7,7 +7,7 @@ const first = [1, 2, 3];
 const second = [4, 5, 6];
 
 const combined = [...first, ...second];
-console.log(combined);
+console.log("primitive type spreed operator", combined);
 
 // Example 02: Reference type
 const third = [
@@ -21,7 +21,7 @@ const fourth = [
 ];
 
 const combined1 = [...third, ...fourth];
-console.log(combined1);
+console.log("Reference type spreed operator", combined1);
 
 // Example 03: When can also add element in between the spreed operators.
 
