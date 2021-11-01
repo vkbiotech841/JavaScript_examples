@@ -1,15 +1,18 @@
-// How we write a function in javaScript: function (){}
+// How we write a function in javaScript: function nameOFtheFuction(){}
 
-// function declaration: performing a task
+// Example 01:
+// function declaration: Here, we write the logic of the function.
 function greet(name, lastName) {            // this function takes two parameters.
     console.log('Hello ' + name + ' ' + lastName);
 }
 
-greet('vikram', 'kumar');        // calling function with arguments.
+// calling function with arguments.
+greet('vikram', 'kumar');
 
 greet('kriti', 'chanchal');
 
 
+// Example 02:
 // calculating a value
 function square(number) {
     return number * number;
