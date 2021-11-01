@@ -1,6 +1,6 @@
 // if, else if and else comes with their code blocks {}.
-// if ()
-// else if {}
+// if (){}
+// else if (){}
 // else {}
 
 // Example 01:
@@ -16,7 +16,6 @@ if (hour >= 6 && hour < 12) {
 else if (hour > 12 && hour < 18) {
     console.log('Good afternoon');
 }
-else
-    console.log('Good evening'); {
-
+else {
+    console.log('Good evening');
 };

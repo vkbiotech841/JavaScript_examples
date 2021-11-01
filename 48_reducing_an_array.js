@@ -14,13 +14,14 @@ console.log("calculate sum", sum);
 
 // Example 01: reduce() method.
 // reduce () method takes two arguments.
-// (1) a call back function: in this case:  (accumulator, currentValue)=>{}
+// (1) a callback function: in this case:  (accumulator, currentValue)=>{}
 // (2) initial value for accumulator: In this case it is 0.
 //currentValue: it is a value of each element in a array.
 // accumulator: it accumulats or sum the currentValue each time when call back function is called.
 
-const number1 = [1, 2, 3, 4, 5];
+const number1 = [1, 3, 6, 3, 4, 5];
 const sum1 = number1.reduce((accumulator, currentValue) => {
+    console.log("accumulator:", accumulator, "currentValue", currentValue);
     return accumulator + currentValue;
 }, 0);
 

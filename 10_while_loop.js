@@ -8,8 +8,9 @@
 // Display odd number between 1 to 5: Use for and if loop
 
 for (let i = 0;i <= 5;i++) {
-    if (i % 2 !== 0)
+    if (i % 2 !== 0) {
         console.log("odd number using for loop:", i);
+    }
 };
 
 //  In case of for loop: let i=0 is inside for loop but in

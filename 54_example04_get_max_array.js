@@ -2,24 +2,35 @@
 // Find the largest number in an array.
 // if an array is empty, return undefined.
 
-const numbers = [1, 2, 3, 4];
+const numbers = [1, 2, 3, 10, 4];
 
 
 // Method 01:
 
-function getMax(array) {
-    if (array.length === 0)
-        return undefined;
+// Assuming first index of an array is a max.
+// Then i starts from index 1
+// comparing each index with max, if index value is greater than max.
+// storing max index value to the max.
+// returning max value.
 
-    let max = array[0];                       // Assuming first index of an array is a max.
-    for (let i = 1; i < array.length; i++)    // Then i starts from index 1
-        if (array[i] > max)                   // comparing each index with max, if index value is greater than max.
-            max = array[i];                   // storing max index value to the max.
-    return max;                               // returning max value.
+function getMax(array) {
+    if (array.length === 0) {
+        return undefined;
+    }
+
+    let max = array[0];
+    for (let i = 1;i < array.length;i++) {
+        if (array[i] > max) {
+            max = array[i];
+        }
+
+    }
+    return max;
+
 };
 
 const max = getMax(numbers);
-console.log(max);
+console.log("max", max);
 
 
 // Method 02:
@@ -30,4 +41,4 @@ function getMax1(array) {
 };
 
 const max1 = getMax1(numbers);
-console.log(max1);
+console.log("max1", max1);

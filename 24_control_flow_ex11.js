@@ -4,18 +4,29 @@
 
 // The best way to understand this example is consider that number is not a prime (example let number is 4). Then read the code.
 
+
 // Method 01:
-function showPrimes(limit) {                              // number start from 2 because 2 is the first prime number. 
-    for (let number = 2;number <= limit;number++) {       // this function just increasing the till the limit number.
-        let isPrime = true;                               // Here, we are considering the isPrimer = true. This is quit usual in programming language.
-        for (let factor = 2;factor < number;factor++) {   // Since, first primer number 2 can only be divided by either 1 or 2 itself. so the factor initial will be 2.
+// Logic: 
+// number start from 2 because 2 is the first prime number. 
+// this function just increasing the till the limit number.
+// Here, we are considering the isPrimer = true. This is quit usual in programming language.
+// Since, first primer number 2 can only be divided by either 1 or 2 itself. so the factor initial will be 2.
+
+function showPrimes(limit) {
+    for (let number = 2;number <= limit;number++) {
+        let isPrime = true;
+        console.log("number at the begining", number);
+
+        for (let factor = 2;factor < number;factor++) {
+            console.log("factor at the begining", factor);
             if (number % factor === 0) {
                 isPrime = false;
                 break;
             }
         };
+
         if (isPrime) {
-            console.log(number);
+            console.log("isPrime", number);
         };
     };
 };

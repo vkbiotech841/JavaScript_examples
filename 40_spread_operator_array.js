@@ -23,7 +23,7 @@ const fourth = [
 const combined1 = [...third, ...fourth];
 console.log("Reference type spreed operator", combined1);
 
-// Example 03: When can also add element in between the spreed operators.
+// Example 03: We can also add element in between the spreed operators.
 
 const combined2 = [...first, 'a', 'b', ...second, 'c', 1];
 console.log(combined2);

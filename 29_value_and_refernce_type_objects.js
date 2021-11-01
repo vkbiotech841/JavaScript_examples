@@ -7,7 +7,7 @@
 let x = 10;  // initially x was 10
 let y = x;   // Value of x was copied to y
 
-x = 20;      // Again value of x was changed to 20
+x = 20;      // x was assigned a new value to 20
 
 // But when we logged the value of x and y. we found x=20 whereas y=10.
 console.log("x:", x);

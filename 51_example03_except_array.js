@@ -8,6 +8,7 @@ function except(array, excluded) {
     const output = [];
     for (let element of array) {
         if (!excluded.includes(element)) {
+            console.log("!excluded.includes(element)", !excluded.includes(element));
             output.push(element);
         }
     }

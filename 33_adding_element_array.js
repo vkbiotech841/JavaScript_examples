@@ -15,7 +15,6 @@ numbers.unshift(1, 2);
 console.log("add element to the beginner of an array", numbers);
 
 // Adding element to the anywhere in an array: splice method
-
 numbers.splice(2, 0, 'a', 'b');
 // This method takes three parameters: 
 // (1) index of the position to where we want to insert: In this case index position is 2.

@@ -11,13 +11,12 @@ function isLandscape(width, height) {
 }
 
 let result = isLandscape(1500, 800);
-console.log(result);
+console.log("isLandscape", result);
 
 // Method 02:
-
 function isPortrate(width, height) {
     return (width < height) ? true : false;
 }
 
 let resultTwo = isPortrate(600, 500);
-console.log(resultTwo);
+console.log("isPortrate", resultTwo);

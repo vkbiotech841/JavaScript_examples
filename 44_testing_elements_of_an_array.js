@@ -5,7 +5,7 @@
 const numbers = [1, -1, 2, 3];
 
 // Example 01: Seaching for all positive: every() method.
-// every() method takes a call back function and three arguments. but here, we gave only one.
+// every() method takes a callback function and three arguments. but here, we gave only one.
 const allPositive = numbers.every((value) => {
     return value >= 0;
 });

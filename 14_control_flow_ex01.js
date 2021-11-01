@@ -12,7 +12,7 @@ function max(a, b) {
 // Calling function and storing result in a variable
 
 let result = max(2, 3);
-console.log(result);
+console.log("max number method 01", result);
 
 // Method 02:
 
@@ -21,4 +21,4 @@ function maximum(a, b) {
 }
 
 let resultMax = maximum(3, 5);
-console.log(resultMax);
+console.log("max number method 02", resultMax);

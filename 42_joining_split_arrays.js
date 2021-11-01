@@ -1,6 +1,7 @@
-// Joining arrays:
+/////////////// Joining arrays //////////////
+
 // it is different from combining arrays.
-// In combining array we combine two different arrays, whereas in joining array we joing the elements of a single (may be using comma).
+// In combining arrays, we combine two different arrays, whereas in joining array we join the elements of a single (may be using comma).
 
 const numbers = [1, 2, 3];
 
@@ -9,7 +10,7 @@ const numbers = [1, 2, 3];
 const joined = numbers.join(',');
 console.log("joined", joined);
 
-// Spliting array:
+////////////// Spliting array ////////////////////
 
 const message = 'This is my first message';
 // Here, we want to split message at empty space.

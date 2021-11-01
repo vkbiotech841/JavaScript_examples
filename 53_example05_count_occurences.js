@@ -16,7 +16,7 @@ function countOccurence(array, searchElement) {
 };
 
 const count = countOccurence(numbers, 1);
-console.log(count);
+console.log("count", count);
 
 
 // Method 02:
@@ -29,4 +29,4 @@ function countOccurence1(array, searchElement) {
 };
 
 const count1 = countOccurence1(numbers, 1);
-console.log(count1);
+console.log("count1", count1);

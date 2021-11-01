@@ -16,7 +16,7 @@ console.log("includes Method", courses.includes({ id: 1, name: 'a' }));
 
 // Way 01: fetching by name.
 
-// find method: it takes a predicate or call function as an parameter. This function takes an element as a paratermeter.
+// find method: it takes a predicate or callback function as an parameter. This function takes an element as a paratermeter.
 // In this case, callback function takes a course element and return if course.name is equals to string 'a'.
 // Further, we are saving the returned result into a course constant.
 const course = courses.find(function (course) {     // Note: call back function takes course or element not courses.

@@ -24,7 +24,7 @@ console.log("mapped method", items);
 
 // We are using join () method to join each element of mapped items with empty space and also adding <ul></ul>. 
 const html = '<ul>' + items.join('') + '</ul>';
-console.log(html);
+console.log("html", html);
 // Result: returns a string.
 
 
@@ -32,7 +32,9 @@ console.log(html);
 
 // Here, we are mapping value to an object.
 const itemObject = filtered.map((value) => {
-    const object = { number: value };
+    const object = {
+        number: value
+    };
     return object;
 });
 console.log("map method", itemObject);

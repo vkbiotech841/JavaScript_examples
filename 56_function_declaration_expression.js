@@ -2,23 +2,28 @@
 // In javaScript functions are objects.
 
 
-// Method 01: Function declaration:
+/////////// Method 01: Function declaration: ///////////////////
+// by convension we don't terminate the function with semicolon (;).
 function walk() {
     console.log('walk')
-}                         // by convension we donot terminate the function with semicolon (;).
+}
 
-// Method 02: Function expression in javaScript
+//////////////// Method 02: Function expression in javaScript ////////////////////
 
 // Anonymous function: Because this function does not have a name.
-let run = function () {              // first we declare a variable then set it to a function then terminate the statement with semicolon(;).
+// first we declare a variable then set it to a function then terminate the statement with semicolon(;).
+let run = function () {
     console.log('run');
 };
 
-run();                              // calling the function.
-let move = run;                     // declarting another variable move and set it to run.Now, move will point (reference) to the same function.
-move();                             // Now, we can call this anonymous function using move() 
+// calling the function.
+run();
+// declarting another variable move and set it to run. Now, move will point (reference) to the same function.                    
+let move = run;
+// Now, we can call this anonymous function using move() 
+move();
 
-// Named function expression: Because thid function has name.
+//////////////////// Named function expression: Because thid function has name. //////////////////
 
 let run = function run() {
     console.log('run');

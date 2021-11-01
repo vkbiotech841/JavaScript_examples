@@ -1,6 +1,6 @@
-// SORTING AND REVERSING AN ARRAY:
+///////////////// SORTING AND REVERSING AN ARRAY ///////////////////
 
-// Primitive type:
+//////////// Primitive type ////////////////
 
 // Sorting an array: using sort() method
 const numbers = [2, 3, 1]; // unsorted array.
@@ -16,7 +16,7 @@ console.log("reverse an array", numbers);
 
 
 
-// Reference type:
+///////////// Reference type ///////////////
 
 const courses = [
     { id: 1, name: 'Node.js' },
@@ -41,7 +41,7 @@ courses.sort((a, b) => {       // here, a and b are imaginery parameters to be c
     if (a.name > b.name) return 1;
     return 0;
 });
-console.log("sorting with reference type", courses);
+console.log("sorting with reference type 01", courses);
 // Result: Javascript comes first.
 
 
@@ -60,7 +60,7 @@ courses1.sort((a, b) => {
     if (a.name > b.name) return 1;
     return 0;
 });
-console.log("sorting with reference type", courses1);
+console.log("sorting with reference type 02", courses1);
 // Result: Node.js comes first.
 
 // Why this is happening ???
@@ -81,5 +81,5 @@ courses.sort((a, b) => {
     if (nameA > nameB) return 1;
     return 0;
 });
-console.log("sorting with reference type", courses);
+console.log("sorting with reference type 03", courses);
 // Result: Now Javascript comes before Node.js

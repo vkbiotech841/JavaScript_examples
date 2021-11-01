@@ -15,12 +15,11 @@ console.log(numbers);
 console.log("remove element from the begining", first);
 
 // Removing an element from the Middle: splice() method
+// Here, first parameter is: index of the number to be removed.
+// and , second parameter is how many element do you want to remove. 
 const middle = numbers.splice(2, 1);
 console.log(numbers);
 console.log("remove element from anywhere", middle);
-
-// Here, first parameter is: index of the number to be removed.
-// and , second parameter is how many element do you want to remove. 
 
 // removing two elements from the middle at index position 1
 const middle1 = numbers.splice(1, 2);

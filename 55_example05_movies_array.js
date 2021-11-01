@@ -12,13 +12,19 @@ const movies = [
 
 
 // Method 01:
-const titles = movies
-    .filter(movies => movies.year === 2018 && movies.rating >= 4)   // filtering movies with year === 2018 and rating >= 4. This returns an array.
-    .sort((a, b) => a.rating - b.rating)                            // Applying sort method to the new array. sorting based on rating. let say a.rating = 5, and b.rating = 4.5. then difference is positive number  0.5.
-    .reverse()                                                      // sort method returns value in ascending order.but in this case, we want values in descending order.Hence, reverse method is applied.
-    .map(movies => movies.title)                                    // Now, we want to map the values to the title of the array.
+// Logic:
+// filtering movies with year === 2018 and rating >= 4. This returns an array.
+// Applying sort method to the new array. sorting based on rating. let say a.rating = 5, and b.rating = 4.5. then difference is positive number  0.5.
+// sort method returns value in ascending order.but in this case, we want values in descending order.Hence, reverse method is applied.
+// Now, we want to map the values to the title of the array.
 
-console.log(titles);
+const titles = movies
+    .filter(movies => movies.year === 2018 && movies.rating >= 4)
+    .sort((a, b) => a.rating - b.rating)
+    .reverse()
+    .map(movies => movies.title)
+
+console.log("titles: ", titles);
 
 
 
