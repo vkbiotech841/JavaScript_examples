@@ -1,21 +1,9 @@
-// Methods for dealing with asychronous codes:
+// Methods for dealing with asynchronous codes:
 // 1.Callbacks
 // 2.Promises
 // Async/await
+// In angular application we use observable method for asynchronous api calling.
 
-
-// Asynchrous programming
-console.log('Before');
-getUser(1, (user) => {
-    console.log('User', user);
-    getRepositories(user.gitHubUserName, (repos) => {
-        console.log('Repos', repos);
-    });
-});
-console.log('After');
-
-// Callback Hell or chrismas tree problem: 
-// callback within a callback (nested callback) looks like a chrismas tree. 
 
 
 function getUser(id, callback) {
@@ -31,6 +19,19 @@ function getRepositories(username, callback) {
         callback(['rep01', 'rep02', 'rep03']);
     }, 2 * 1000)
 };
+
+// Asynchrous programming
+console.log('Before');
+getUser(1, (user) => {
+    console.log('User', user);
+    getRepositories(user.gitHubUserName, (repos) => {
+        console.log('Repos', repos);
+    });
+});
+console.log('After');
+
+// Callback Hell or chrismas tree problem: 
+// callback within a callback (nested callback) looks like a chrismas tree. 
 
 
 // Synchrous code: Same code can be written as.

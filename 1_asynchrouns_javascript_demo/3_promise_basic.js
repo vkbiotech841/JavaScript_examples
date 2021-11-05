@@ -9,7 +9,7 @@ const p = new Promise((resolve, reject) => {
     // async function will give some result.
     setTimeout(() => {
         resolve(1);                      //pending => resolved, fulfilled
-        reject(new Error('message'));   // pending => rejected
+        reject(new Error('an error occurred message'));   // pending => rejected
     }, 2 * 1000);
 })
 

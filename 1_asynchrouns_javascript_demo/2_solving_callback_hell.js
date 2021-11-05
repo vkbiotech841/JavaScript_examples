@@ -37,7 +37,7 @@ function getRepositories(username, callback) {
 function getCommit(repos, callback) {
     setTimeout(() => {
         console.log('Calling github API...');
-        callback(['rep04', 'rep05', 'rep06']);
+        callback(['commit01', 'commit02', 'commit03']);
     }, 2 * 1000)
 };
 

@@ -51,7 +51,7 @@ function getCommits(repo) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             console.log('Calling github API for commits ...')
-            resolve(['commit']);
+            resolve(['commit01', 'commit02', 'commit03']);
         }, 2 * 1000)
     });
 };

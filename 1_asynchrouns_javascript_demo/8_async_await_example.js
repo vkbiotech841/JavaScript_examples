@@ -16,12 +16,14 @@ notifyCustomer();
 function getCustomer(id) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve({
-                id: 1,
-                name: 'Mosh Hamedani',
-                isGold: true,
-                email: 'email'
-            });
+            resolve(
+                {
+                    id: 1,
+                    name: 'Vikram Kumar',
+                    isGold: true,
+                    email: 'vkbiotech841@gmail.com'
+                }
+            );
         }, 2000);
     });
 }
@@ -29,7 +31,7 @@ function getCustomer(id) {
 function getTopMovies() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve(['movie1', 'movie2']);
+            resolve(['movie1', 'movie2', 'movie3']);
         }, 2000);
     });
 }
