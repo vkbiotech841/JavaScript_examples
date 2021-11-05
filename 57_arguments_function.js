@@ -10,12 +10,12 @@ console.log(sum(1, 2));  // Two argument supplied. Result: 3. Here, number + num
 
 console.log(sum(1));     // We can also supply one argument. Result: NaN (Not a Number).Here, number + undefined = NaN
 
-console.log(sum(1));    // No Argument supplied. Result: NaN.
+console.log(sum());    // No Argument supplied. Result: NaN.
 
 console.log(sum(1, 2, 3, 4, 5));  // Five arguments are supplied.but it will consider only two arguments.Result:3 
 
 // What if we want a multiple arguments in a function (flexibility).
-// Every function in javascript has a special object called as Arguments.
+// Every function in javascript has a special object called as arguments.
 
 function sum1() {          // Here, have not supplied any parameters.
     let total = 0;
@@ -26,4 +26,4 @@ function sum1() {          // Here, have not supplied any parameters.
 
 console.log(sum1(1, 2, 3, 4, 5, 6));      // multiple arguments can be supplied.
 
-console.log(sum1(1, 2, 3, 4, 5, 6, 7, 8, 9)); 
+console.log(sum1(1, 2, 3, 4, 5, 6, 7, 8, 9));

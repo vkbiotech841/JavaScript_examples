@@ -20,9 +20,9 @@ try {
     person.fullName = null;
 }
 
-catch (e) {
-    alert(e);
-    console.log(e);
+catch (error) {
+    alert(error);
+    console.log(error);
 }
 
 console.log(person);

@@ -2,10 +2,11 @@
 
 // Let keyword:
 function start() {
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0;i < 5;i++) {
         console.log(i);            // here, scope of i is inside the for block.
     }
-    // console.log(i);                  // Because of the let keyword, Here, scope of i is outside the for block. Hence, it does not work.
+    // console.log(i);
+    // Because of the let keyword, Here, scope of i is inside the for block. Hence, it does not work.
 }
 
 
@@ -14,7 +15,7 @@ start();
 // var keyword:
 
 function start1() {
-    for (var i = 0; i < 6; i++) {
+    for (var i = 0;i < 6;i++) {
         console.log(i);
 
     }

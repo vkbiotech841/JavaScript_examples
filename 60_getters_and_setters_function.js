@@ -9,11 +9,11 @@ const person = {
 
 // Get the full name
 
-// Method 01: 
-console.log(person.firstName + ' ' + person.lastName);
+// Method 01: string method
+console.log("person fullname", person.firstName + ' ' + person.lastName);
 
-// Method 02:We can also use template iterals method.
-console.log(`${person.firstName} ${person.lastName}`);
+// Method 02:We can also use template literals method.
+console.log("template literals", `${person.firstName} ${person.lastName}`);
 
 // Method 03: by creating method in an object.
 
@@ -25,7 +25,7 @@ const person1 = {
     }
 };
 
-console.log(person1.fullname()); // Here, we are calling fullname as () method.
+console.log("person1 fullname", person1.fullname()); // Here, we are calling fullname as () method.
 
 // Method 04: Using getters
 // Now, we do not want to call fullname as () method. Instide we just want to use fullname property.
@@ -41,7 +41,7 @@ const person2 = {
     }
 };
 
-console.log(person2.fullname);      // Here, we are using fullname as a properties of an object. Not as method.
+console.log("person2 fullname", person2.fullname);      // Here, we are using fullname as a properties of an object. Not as method.
 
 // Method 05: setters
 
@@ -60,4 +60,4 @@ const person3 = {
 
 person3.fullName = 'VIKRAM KUMAR';       // original name was KRITI CHANCHAL but setter (set) has changed the properties of an object. Here, fullName properties has been changed to VIKRAM KUMAR.
 
-console.log(person3);
+console.log("person3", person3);

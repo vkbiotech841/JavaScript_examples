@@ -49,7 +49,7 @@ const v = new Video('a');     // we call the constructor function using new keyw
 
 
 // Example 04: 
-// When this keyword is inside a call back function.it references a window object. because call back function is just like a regular function inside a another function.
+// When this keyword is inside a callback function.it references a window object. because callback function is just like a regular function inside a another function.
 
 const Video1 = {
     title: 'a',

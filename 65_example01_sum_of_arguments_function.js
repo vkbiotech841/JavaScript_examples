@@ -1,16 +1,16 @@
 // Sum of arguments:
 
-// To check array is actuall an array: Array.isArray();
+// To check array is actualy an array: Array.isArray();
 
 function sum(...items) {            // use of rest operator. that return an array.
     return items.reduce((a, b) => a + b);
 }
 
-console.log(sum(1, 2, 3, 4));
+console.log("sum", sum(1, 2, 3, 4));
 
 // What if we have an array.
 
-console.log(sum([1, 2, 3, 4]));      // this simply return an array not a number.
+console.log("sum array", sum([1, 2, 3, 4]));      // this simply return an array not a number.
 
 // solution:
 
@@ -21,4 +21,4 @@ function sum1(...items) {
     return items.reduce((a, b) => a + b);
 }
 
-console.log(sum1([1, 2, 3, 4]));
+console.log("sum1", sum1([1, 2, 3, 4]));
