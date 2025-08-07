@@ -25,14 +25,19 @@ const arr3 = [
 // Using Find Method
 function areEqualArrays(array1, array2) {
 
-    let areEqualArrays = true;
+    if (array1.length === array2.length) {
+        let areEqualArrays = true;
+        array1.forEach((element, index) => {
+            const isTwoObjectsAreEqual = objectsEqual(element, array2[index]);
+            areEqualArrays = areEqualArrays && isTwoObjectsAreEqual;
+        });
 
-    array1.forEach((element, index) => {
-        const isTwoObjectsAreEqual = objectsEqual(element, array2[index]);
-        areEqualArrays = areEqualArrays && isTwoObjectsAreEqual;
-    });
+        return areEqualArrays;
+    } else {
+        return false;
+    }
 
-    return areEqualArrays;
+
 }
 
 function objectsEqual(o1, o2) {
